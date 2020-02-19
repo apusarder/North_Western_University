@@ -1,0 +1,16 @@
+﻿<Window x:Class="North_Western_University.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:North_Western_University"
+        mc:Ignorable="d"
+        Title="Welcome" Height="668.946" Width="1148.071">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="87,26,46.4,0" TextWrapping="Wrap" Text="       North Western University" VerticalAlignment="Top" Height="68" Width="385" Foreground="#FF230554" FontSize="26.667" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72" Margin="321,110,273,343.4" Background="#FF5C909C" Height="141" Width="626" Text="            Hello!"/>
+        <Button x:Name="button" Content="Exit" HorizontalAlignment="Left" Margin="839,317,0,0" VerticalAlignment="Top" Width="75" Background="#FFEED70D" FontSize="21.333" FontWeight="Bold" Foreground="#FF16056B" Click="button_click_1"/>
+        <Button x:Name="button_Copy" Content="Continue" HorizontalAlignment="Left" Margin="351,317,0,0" VerticalAlignment="Top" Width="106" Foreground="#FF16056B" Background="#FFEED70D" FontSize="21.333" FontWeight="Bold" Click="button_click"/>
+
+    </Grid>
+</Window>

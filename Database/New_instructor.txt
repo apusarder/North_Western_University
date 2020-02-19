@@ -1,0 +1,2 @@
+Name,Department,ID,DOB,JD,Gender,Email,Contact,Passward
+Apu Sarder,B.Sc. in CSE,01,2019-12-29,2020-01-09,Male,apu@gmail.com,0194556,1234

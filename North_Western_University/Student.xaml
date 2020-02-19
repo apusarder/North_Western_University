@@ -1,0 +1,20 @@
+﻿<Window x:Class="North_Western_University.Student"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:North_Western_University"
+        mc:Ignorable="d"
+        Title="Student" Height="397.067" Width="533.095" Background="#FFE2CFCF">
+    <Grid Margin="10,44,0.4,0.2">
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="27" Margin="56,28,0,0" VerticalAlignment="Top" Width="394">
+            <MenuItem x:Name="Menuiiteam_Info" Background="#FF4A81DE" Header="Information" FontSize="18.667" FontWeight="Bold" Click="Menuiiteam_Info_Click"/>
+            <MenuItem x:Name="Menuitem_Update" Background="#FF4A81DE" Header="Update Information" FontWeight="Bold" FontSize="18.667" Click="Menuitem_Update_Click_1"/>
+            <MenuItem x:Name="Menuitem_LogOut" Background="#FF4A81DE" Header="Log Out" FontWeight="Bold" FontSize="18.667" Click="Menuitem_LogOut_Click_2"/>
+        </Menu>
+        <Label x:Name="label" Content=" Welcome!" HorizontalAlignment="Center" Margin="64,93,62.2,0" VerticalAlignment="Top" Height="96" Width="361" FontWeight="Bold" FontSize="64" Foreground="#FF4D7408" Background="#FFDABBBB"/>
+        <Label Content=" All Rights Reserved By North Western University ,Bangladesh" HorizontalAlignment="Left" Margin="10,255,-6.8,0" VerticalAlignment="Top" Width="484" FontSize="16" FontWeight="Bold" FontStyle="Italic" Background="#FFE2CFCF"/>
+        <Label x:Name="L2" Content="North Western University" HorizontalAlignment="Left" Margin="78,-34,0,0" VerticalAlignment="Top" Height="46" Width="349" FontSize="26.667" FontWeight="Bold" FontStyle="Italic" Background="#FFE2CFCF"/>
+
+    </Grid>
+</Window>

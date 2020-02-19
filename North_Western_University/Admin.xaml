@@ -1,0 +1,25 @@
+﻿<Window x:Class="North_Western_University.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:North_Western_University"
+        mc:Ignorable="d"
+        Title="Admin Section" Height="471.8" Width="806.664" FontSize="16" FontWeight="Bold">
+    <Grid>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="36" Margin="99,19,0,0" VerticalAlignment="Top" Width="535">
+            <MenuItem x:Name="ins_instructor" Background="#FF40DA3E" FontWeight="Bold" FontSize="24" Header="Instructor" Click="Ins_instructor_Click">
+                <MenuItem Background="#FF54BCC5" FontWeight="Normal" FontSize="14.667" Header="Student Info" Click="MenuItem_Click"/>
+                <MenuItem Background="#FF54BCC5" FontWeight="Normal" FontSize="14.667" Header="Update" Click="MenuItem_Click_1"/>
+                <MenuItem Background="#FF54BCC5" FontWeight="Normal" FontSize="14.667" Header="Search" Click="MenuItem_Click_2"/>
+                <MenuItem Background="#FF54BCC5" FontWeight="Normal" FontSize="14.667" Header="Delete" Click="MenuItem_Click_3"/>
+            </MenuItem>
+            <MenuItem x:Name="ins_stu" Background="#FF40DA3E" FontWeight="Bold" FontSize="24" Header="Insert Student" Click="Insert_Student_Click"/>
+            <MenuItem Background="#FF40DA3E" FontWeight="Bold" FontSize="24" Header="Over View" Click="Over_View_Click"/>
+            <MenuItem x:Name="Dept_instructor1" Background="#FF40DA3E" FontWeight="Bold" FontSize="24" Header="Log Out" Click="Dept_instructor1_Click"/>
+        </Menu>
+        <Label Content="&#xA;          Welcome   !" HorizontalAlignment="Left" Margin="24,74,0,0" VerticalAlignment="Top" Height="246" Width="745" FontSize="72" FontWeight="Bold" Background="#FF93CBB7"/>
+        <Label Content=" All Rights Reserved By North Western University ,Bangladesh" HorizontalAlignment="Left" Margin="170,354,-168.2,0" VerticalAlignment="Top" Width="599" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Window>
